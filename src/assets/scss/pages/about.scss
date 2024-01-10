@@ -1,0 +1,98 @@
+.about-us-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    gap: 70px;
+}
+
+.aboutUs-right-img {
+    width: 45%;
+    min-height: 400px;
+    padding: 15px;
+    position: relative;
+}
+
+.about-us-content {width: 55%;}
+
+.aboutUs-right-img img {
+    width: calc(100% - 30px);
+    height: calc(100% - 30px);
+    object-fit: cover;
+    position: absolute;
+}
+
+.aboutUs-right-img:after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    border: 1px solid #378b41;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    pointer-events: none;
+}
+
+.about-us-content .pageHeader {
+    margin-top: 0;
+    font-size: 28px;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.about-us-content .description {font-weight: 300;color: #555;}
+
+
+
+
+
+
+
+// get in touch css
+
+
+.getInTouch-Section {
+    padding-bottom: 70px;
+    padding-top: 50px;
+}
+
+.getInTouchWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+    position: relative;
+}
+
+.getInTouch-content {
+    width: 70%;
+    margin: 0;
+    font-size: 28px;
+    font-weight: 300;
+    font-style: italic;
+    color: #333;
+    line-height: 1.7;
+    padding-left: 50px;
+}
+
+.getIntouchBtn {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.getInTouchWrapper:after {
+    content: "";
+    height: 1px;
+    background-color: #378b41;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.getInTouchWrapper:before {content: "";height: 1px;background-color: #378b41;position: absolute;top: 0;left: 0;right: 0;}
+

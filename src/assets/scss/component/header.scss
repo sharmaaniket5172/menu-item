@@ -1,0 +1,87 @@
+.header-top-menu {
+    background-color: $light-gray;
+    padding: 14px 0 16px;
+}
+
+.social-link {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    li {
+        font-size: $base-font;
+        a {
+            display: block;
+            color: $normal-little-black;
+            text-transform: uppercase;
+            &:hover, &:focus, &:active {
+                color: $leaf-dark-green;
+            }
+        }
+        svg {
+            vertical-align: middle;
+        }
+    }
+}
+
+.header-logo {
+    font-size: 0;
+    text-align: center;
+    padding: 20px 15px;
+}
+
+.logo-url {
+    img {
+        max-height: 100px;
+    }
+}
+
+.header-navigation {
+    text-align: center;
+    border: solid $light-gray;
+    border-width: 1px 0 1px 0;
+    padding: 20px 15px;
+    position: relative;
+    .menu {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        position: relative;
+        display: inline-block;
+        z-index: 98;
+        font-size: 0;
+        white-space: nowrap;
+        text-align: left;
+        li {
+            position: relative;
+            display: inline-block;
+            margin: 0 40px;
+            -webkit-animation-duration: 0.4s;
+            animation-duration: 0.4s;    
+            a {
+                position: relative;
+                display: block;
+                font-size: 13px;
+                font-weight: 400;
+                line-height: normal;
+                color: #555;
+                letter-spacing: 0;
+                text-transform: uppercase;
+                white-space: nowrap;
+                padding-bottom: 5px;
+                border-bottom: 2px solid transparent;
+                -webkit-transition: color 0.2s, border 0.2s;
+                -moz-transition: color 0.2s, border 0.2s;
+                -o-transition: color 0.2s, border 0.2s;
+                -ms-transition: color 0.2s, border 0.2s;
+                transition: color 0.2s, border 0.2s;
+                &:hover, &:focus, &:active, &.active {
+                    color: $leaf-dark-green;
+                    border-bottom-color: $leaf-dark-green;
+                }
+            }        
+        }
+    }
+}

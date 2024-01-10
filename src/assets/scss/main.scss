@@ -1,0 +1,31 @@
+
+// Import base styles
+@import '../scss/base/variable.scss';
+@import '../scss/base/mixin.scss';
+@import '../scss/base/base.scss';
+// Other base imports...
+
+// Import components
+@import '../scss/component/header.scss';
+@import '../scss/component/footer.scss';
+@import '../scss/component/title.scss';
+@import '../scss/component/button.scss';
+@import '../scss/component/breadcrumbs.scss';
+
+// Import Pages
+
+@import '../scss/pages/home.scss';
+@import '../scss/pages/menu.scss';
+@import '../scss/pages/form.scss';
+@import '../scss/pages/about.scss';
+
+
+// Other component imports...
+
+// Import page-specific styles
+// @import 'pages/home';
+// @import 'pages/about';
+// Other page-specific imports...
+
+
+

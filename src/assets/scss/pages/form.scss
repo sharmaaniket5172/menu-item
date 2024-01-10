@@ -1,0 +1,106 @@
+.contact-form{
+    display: flex;
+    // flex-direction: column;
+    justify-content: center;
+    // align-items: center;
+    gap: 20px;
+    .form{
+        padding: 15px 25px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        // max-width: 960px;
+        width: 73%;
+        margin-bottom: 100px;
+        .input-name{
+            display: flex;
+            justify-content: space-between;
+            // gap: 0px;
+            .first-name,.last-name{
+                display: flex;
+                flex-direction: column;
+                // gap: 10px;
+                max-width: 400px;
+                width: 100%;
+                label{
+                    font-size: 16px;
+                    margin-bottom: 5px;
+                }
+                input{
+                    font-size: 20px;
+                    height: 50px;
+                    padding: 5px 8px;
+                    outline: none;
+                    &::placeholder{
+                        color: #ccc;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+
+        .contact-details{
+            display: flex;
+            justify-content: space-between;
+            .phone,.email{
+                display: flex;
+                flex-direction: column;
+                max-width: 400px;
+                width: 100%;
+                label{
+                    font-size: 16px;
+                    margin-bottom: 5px;
+                }
+                input{
+                    font-size: 20px;
+                    height: 50px;
+                    padding: 5px 8px;
+                    &::placeholder{
+                        color: #ccc;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+        
+        .occassion{
+            width: 100%;
+            height: 50px;
+            font-size: 16px;
+            padding: 0 10px;
+        }
+        
+        .submit-btn{
+            width: 120px;
+            padding: 6px 15px;
+        }
+        .msg-area{
+            display: flex;
+            flex-direction: column;
+            label{
+                margin-bottom: 5px;
+            }
+        }
+    }
+    .error-msg
+    {
+        color: red;
+        font-size: 15px;
+        margin: 0;
+    }
+    .address{
+        width: calc(100% - 73%);
+        .phoneNo,.emailAdd {
+            span{
+                font-size: 20px;
+                &:first-of-type{
+                    font-weight: 700;
+                    margin-right: 6px;
+                }
+            }
+        }
+    }
+}
+
+
+

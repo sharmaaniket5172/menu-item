@@ -1,0 +1,19 @@
+.breadcrumbs {position: relative;z-index: 1;color: #fff;margin-top: 10px;}
+
+.breadcrumbs-list a, .breadcrumbs-list {
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: normal;
+    font-style: italic;
+}
+
+.breadcrumbs-list {line-height: normal;}
+
+.breadcrumbs-hyfn:after {
+    content: ">";
+    line-height: normal;
+    vertical-align: middle;
+    margin-right: 5px;
+}
