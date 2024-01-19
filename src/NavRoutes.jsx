@@ -1,10 +1,10 @@
 import React from 'react'
 import {Routes, Route} from 'react-router-dom'
-import HomePage from './pages/home' 
-import Aboutus from './pages/aboutus'
-import Contactus from './pages/contactus'
-import MenuCategory from './pages/menucategory'
-import MenuDetail from './pages/menudetail/MenuDetail'
+import HomePage from './pages/home/Index.jsx' 
+import Aboutus from './pages/aboutus/Index.jsx'
+import Contactus from './pages/contactus/Index.jsx'
+import MenuCategory from './pages/menucategory/Index.jsx'
+import MenuDetail from './pages/menudetail/Index.jsx'
 
 export default function NavRoutes() {
   return (
