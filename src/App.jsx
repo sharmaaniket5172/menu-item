@@ -3,6 +3,7 @@ import Footer from "./components/common/Footer";
 import Header from "./components/common/Header";
 import NavRoutes from "./NavRoutes";
 
+
 function App() {
   return (
     <>
