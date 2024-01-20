@@ -1,18 +1,19 @@
 import React from 'react'
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 
 export default function Category({catUrl, imgsrc,title}) {
 
 const renderCategory = (
-    <a href={catUrl} className='imageWrapper'>
+    <Link to={catUrl} className={'imageWrapper'}>
         <div className='imageInnerWrapper'>
             <img src={imgsrc} alt={title}/>
         </div>
         <div className='menu-title'>
              <h5 className='renderMenuName'>{title}</h5>
         </div>
-    </a>
+    </Link>
 );
   return (
     <div className='food-menu'>

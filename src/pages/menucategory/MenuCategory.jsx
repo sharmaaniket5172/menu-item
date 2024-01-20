@@ -19,7 +19,7 @@ export default function Menu() {
         <div className='container'>
             <div className='row'>
                 <div className='col-4'>
-                   <Category imgsrc={foodImg1} title={'Corporate Catering'} catUrl={'menu-category/menu-details'}/> 
+                   <Category imgsrc={foodImg1} title={'Corporate Catering'} catUrl={'/menu-category/menu-details'}/> 
                 </div>
                 <div className='col-4'>
                    <Category imgsrc={foodImg2} title={'OFC Lunch and Dinner'} catUrl={'/'}/> 
